@@ -1,0 +1,6 @@
+framework module OhCrap {
+  umbrella header "OhCrap-watchOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

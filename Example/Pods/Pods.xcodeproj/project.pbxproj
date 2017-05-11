@@ -7,122 +7,354 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		77CF6DDFAB5765C4DD3A6A2152D11BE6 /* OhCrap-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFE0A98F93E9C15F22139EC844E6870E /* OhCrap-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		85720DAF5255EF223BF47CAED9590553 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		8FF530BEE5EDD37A105EBFF0EC291A57 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 699118D7DDD5F335E4FB8B17DC0F12D2 /* Pods-Example-dummy.m */; };
-		9B4638F30F63D7CB3E60CC19A26935AF /* OhCrap-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6905522A7148578A67BE74FEB9A8EE6A /* OhCrap-dummy.m */; };
-		DBA2B04796348DEEEBCC52D2CD0C781B /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9BDE82371C83FA9AE91B05F77ACAA36 /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E9A6064322F07F84FB7F73FC2801514E /* OhCrapDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D209F6A5DCBB15D6EFD7AB9CF45F1402 /* OhCrapDefine.swift */; };
-		EB2B09E3C5B98484D61912622EAD5C3B /* OhCrap.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F52A9AF04FA6891A9A243D13B508669 /* OhCrap.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EFBF5648F3BA68D9B0075FC20D9A12A8 /* OhCrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76FAC5D1F4979C826983A5FBADB5C56 /* OhCrap.swift */; };
-		FC5730500979A834C12F2B355D16B92A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		06E734ABC119461B31AF7AD410F17D85 /* Pods-ExampleMacOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4198DC79643A13836503ED94A0ABB2 /* Pods-ExampleMacOS-dummy.m */; };
+		086B11C9C062A1E8F10922692A437F99 /* OhCrap-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F389421584845BED5E3DE0442F66F7AE /* OhCrap-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D36FDF276DE249743460C0C6BD7BC0B /* Pods-ExampleWatchOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB978CBC64E4BED11A20DBE454F859E /* Pods-ExampleWatchOS-dummy.m */; };
+		139F3FA63DF75DC52ED1552D8112DF8C /* OhCrap-OSX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CCEB19441984BF9926173B974C330F /* OhCrap-OSX-dummy.m */; };
+		1AF644C226A1DC2C8DE376FB277046C2 /* OhCrapDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99769FD7060670378150902EDA321AA3 /* OhCrapDefine.swift */; };
+		2804636661D0331CABAC9224D4E59928 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 672E53E449F9CB6E5A0B78DC5419C607 /* Cocoa.framework */; };
+		29DD7FE7B46DF010A3231EB1B0F9C546 /* OhCrap-watchOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15352993D04F28CA6E77B157F1350AD8 /* OhCrap-watchOS-dummy.m */; };
+		2AAC401A9401CDA98728336BA7793541 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A2FEF33E80C7C56AADE3CB2F8E3699 /* Foundation.framework */; };
+		2F1FC700D89C72F7B82F8AF364D7D429 /* Pods-ExampleTVOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B8E2A93E2F502ED1D10A0F024A95626 /* Pods-ExampleTVOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31E0E21CCB5B8020850C9055558E6953 /* Pods-ExampleTVOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B22F8E83983C1C37ABED3348547C11 /* Pods-ExampleTVOS-dummy.m */; };
+		33EDC9AAC4463ED3E6276B6DE285A350 /* OhCrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDC8783527FAC56B88714EC73018211 /* OhCrap.swift */; };
+		36964085BBC16CC56A1B7D5463193B98 /* OhCrapDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99769FD7060670378150902EDA321AA3 /* OhCrapDefine.swift */; };
+		3A8487F44B4C303309C8D0C684382186 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 215C1F74F52D4FB93EDD9E39A645EE09 /* Foundation.framework */; };
+		3CF6BD10190C5DFEE668021EC441E3B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D336B092264007873B87DD6BD3707C81 /* Foundation.framework */; };
+		420D8594B9E397F74B1BF18B597BFA33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D336B092264007873B87DD6BD3707C81 /* Foundation.framework */; };
+		42BCFCA5DAE35C5D18FE3CAE960AFDF1 /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77E76488C2CE9D2A40397426EC20C8F5 /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4905EFFF65ADACE4E937EF2B573E805E /* OhCrap.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D6FA6A3D00652CC25C8FFC0522C708F /* OhCrap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56497E001C2D4E06525896BD3B168965 /* OhCrapDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99769FD7060670378150902EDA321AA3 /* OhCrapDefine.swift */; };
+		5D708895F7E2B2D7553FBC527999DBF9 /* Pods-ExampleWatchOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10AFB167572F969113735F6AA252ABFC /* Pods-ExampleWatchOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61883CF623B467252F77208E17FA948E /* OhCrap-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F85D02BDA0A9A4CE6732187C9B1D27 /* OhCrap-tvOS-dummy.m */; };
+		6CEBB8070DC480D7CC2C6F0D7B6B6C0E /* OhCrap.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D6FA6A3D00652CC25C8FFC0522C708F /* OhCrap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FBF50E1708AE0F108F103653D6B454D /* OhCrap.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D6FA6A3D00652CC25C8FFC0522C708F /* OhCrap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FEEA2E2DBEDEA511CE6AE194E157881 /* Pods-ExampleWatchOS Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDF884B6953F9DB97F1F414E3896970 /* Pods-ExampleWatchOS Extension-dummy.m */; };
+		897232C922EB2F64A57FC9FC104D0E47 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 672E53E449F9CB6E5A0B78DC5419C607 /* Cocoa.framework */; };
+		8AFEEB5C0A1374E66509EAD33B92C19C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D525184AFBB10CFBBBFC76F4C39F7229 /* Foundation.framework */; };
+		8BFB1DC7868FAEB71A05192B89FD1E16 /* OhCrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDC8783527FAC56B88714EC73018211 /* OhCrap.swift */; };
+		8EB865D8FB84B9F5022FC4433FE42D08 /* OhCrap-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 016C947709D1FE9DCFEB7C68A8D5650E /* OhCrap-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		960FB92918E17A77734115E1D183891D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D525184AFBB10CFBBBFC76F4C39F7229 /* Foundation.framework */; };
+		AA71E41DC0B7334617414502BEB65495 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A2FEF33E80C7C56AADE3CB2F8E3699 /* Foundation.framework */; };
+		AE99D96EEBC076D81E787EAB3FF4C7DE /* OhCrap.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D6FA6A3D00652CC25C8FFC0522C708F /* OhCrap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7E8EF6BDEFE3638F8E92B908EEEBDDE /* OhCrap-OSX-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6D3A104D4B24AC51C2B929BFF6CA3B9 /* OhCrap-OSX-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD820D8C2270350B8CD12E9F01189404 /* OhCrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDC8783527FAC56B88714EC73018211 /* OhCrap.swift */; };
+		EE40042252A15FFC93FA79BCA480D624 /* OhCrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDC8783527FAC56B88714EC73018211 /* OhCrap.swift */; };
+		EF521FA134100948A8DEC17C78F2D751 /* Pods-ExampleWatchOS Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17451132DDEE5ACC3798D26B359FC1AE /* Pods-ExampleWatchOS Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F106965EE8849FBA5B7AB973CD86C005 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D336B092264007873B87DD6BD3707C81 /* Foundation.framework */; };
+		F3F41103EE1D217F7C10505B8C58F5F4 /* Pods-ExampleMacOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1D83200E1BB6A126592ABFA916EF91A /* Pods-ExampleMacOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F900EFADC5FD7D33F5F2B6B706F319D2 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDF042683E9A155F0FD1AA9D7BCF359 /* Pods-Example-dummy.m */; };
+		FAA4A598C4BAC3902AF8DEE58170F74A /* OhCrap-watchOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1002664AF2044FF11709F0A8863EB17A /* OhCrap-watchOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC360288DF1574C4F84C29EA6334422D /* OhCrapDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99769FD7060670378150902EDA321AA3 /* OhCrapDefine.swift */; };
+		FCE3585A9F7A66307CF3487E152E39A8 /* OhCrap-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92613877FAC4547F48D32EC05E6C1530 /* OhCrap-iOS-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A83DA52E7F3016D20CCCA7E4B2B6DA46 /* PBXContainerItemProxy */ = {
+		04201280762DF0799482AEFC891913A8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5C94CAF55BA1DE25284605EF1F3FF35B;
-			remoteInfo = OhCrap;
+			remoteGlobalIDString = 38C2DEF6DF3D9A2DDE4CB3718FC4B990;
+			remoteInfo = "OhCrap-tvOS";
+		};
+		236FD1454EFD62D681E82878D3A3B3C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38684901A9696DDBE714F9048C4E982B;
+			remoteInfo = "OhCrap-iOS";
+		};
+		9B9F67E5476B8C0D885A70A190A6F4B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91B3742E7FA11AADE6A194CEE95D4979;
+			remoteInfo = "OhCrap-OSX";
+		};
+		A938DB12071BD837A840BF18BEACF62D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CEDE03E53F9EE7583AC32873D8A29EA;
+			remoteInfo = "OhCrap-watchOS";
+		};
+		B3202FC8C2F10CC9C40ECB2B545C6528 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CEDE03E53F9EE7583AC32873D8A29EA;
+			remoteInfo = "OhCrap-watchOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01E6907CF2644EB1CF8E23F708A3DA0B /* Pods-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-resources.sh"; sourceTree = "<group>"; };
-		08DEAACFAF2242CE497A3898F27D9DB4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		119072C64A19799964E1620D83F514FB /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
-		149054C495E8EC590CAB4C524133016F /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1B6F0E6870E6E3A3CE794C613874F634 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		552550F3F912264E5D073F8893691F88 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6905522A7148578A67BE74FEB9A8EE6A /* OhCrap-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OhCrap-dummy.m"; sourceTree = "<group>"; };
-		699118D7DDD5F335E4FB8B17DC0F12D2 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
-		764D33E23CE6C1111110B04F5CBADADB /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		8F52A9AF04FA6891A9A243D13B508669 /* OhCrap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OhCrap.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A661FECCEBFF9D01869EE3B29C4C1EFF /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C76FAC5D1F4979C826983A5FBADB5C56 /* OhCrap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OhCrap.swift; sourceTree = "<group>"; };
-		C9BDE82371C83FA9AE91B05F77ACAA36 /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
-		CCC7847CC7EA09DC7454448D8FAD4F54 /* OhCrap.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = OhCrap.modulemap; sourceTree = "<group>"; };
-		CDD6E520781D8EB57122EA98D31273C6 /* OhCrap.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OhCrap.xcconfig; sourceTree = "<group>"; };
-		D209F6A5DCBB15D6EFD7AB9CF45F1402 /* OhCrapDefine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OhCrapDefine.swift; sourceTree = "<group>"; };
-		D506C9F26E063F4AF57A27254954AE46 /* OhCrap-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OhCrap-prefix.pch"; sourceTree = "<group>"; };
-		E512A5F985F876750237FD237C3AEEDA /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
-		EFE0A98F93E9C15F22139EC844E6870E /* OhCrap-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OhCrap-umbrella.h"; sourceTree = "<group>"; };
-		EFFB74AAA6B2AE8DABF0E88E61E09178 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FDCC5C59489026BBD2251A43D010AD05 /* OhCrap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OhCrap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0112B77B07C048BB2D2EC4780CEA8739 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		016C947709D1FE9DCFEB7C68A8D5650E /* OhCrap-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OhCrap-iOS-umbrella.h"; path = "../OhCrap-iOS/OhCrap-iOS-umbrella.h"; sourceTree = "<group>"; };
+		02798F8639EE2A994B83F0F448BEB5B3 /* OhCrap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OhCrap.framework; path = "OhCrap-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0376B750247E79E5AEA443601BC21350 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		07C7FB97EDB716F1B1C70E88AA328F96 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../OhCrap-iOS/Info.plist"; sourceTree = "<group>"; };
+		07CCEB19441984BF9926173B974C330F /* OhCrap-OSX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OhCrap-OSX-dummy.m"; sourceTree = "<group>"; };
+		08CA66380EF8DD73AC7CE49FEA718CB4 /* Pods-ExampleTVOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleTVOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		1002664AF2044FF11709F0A8863EB17A /* OhCrap-watchOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OhCrap-watchOS-umbrella.h"; path = "../OhCrap-watchOS/OhCrap-watchOS-umbrella.h"; sourceTree = "<group>"; };
+		10AFB167572F969113735F6AA252ABFC /* Pods-ExampleWatchOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ExampleWatchOS-umbrella.h"; sourceTree = "<group>"; };
+		11F85D02BDA0A9A4CE6732187C9B1D27 /* OhCrap-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "OhCrap-tvOS-dummy.m"; path = "../OhCrap-tvOS/OhCrap-tvOS-dummy.m"; sourceTree = "<group>"; };
+		14A59FEF8D1426C6F5C4EA4C56430F92 /* OhCrap-tvOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "OhCrap-tvOS.xcconfig"; path = "../OhCrap-tvOS/OhCrap-tvOS.xcconfig"; sourceTree = "<group>"; };
+		15352993D04F28CA6E77B157F1350AD8 /* OhCrap-watchOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "OhCrap-watchOS-dummy.m"; path = "../OhCrap-watchOS/OhCrap-watchOS-dummy.m"; sourceTree = "<group>"; };
+		154422B1D73FC33E0F77CE5058360CA3 /* OhCrap-tvOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OhCrap-tvOS-prefix.pch"; path = "../OhCrap-tvOS/OhCrap-tvOS-prefix.pch"; sourceTree = "<group>"; };
+		17451132DDEE5ACC3798D26B359FC1AE /* Pods-ExampleWatchOS Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ExampleWatchOS Extension-umbrella.h"; sourceTree = "<group>"; };
+		17AE5CC8804D3071696DECACB403D38C /* OhCrap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OhCrap.framework; path = "OhCrap-OSX.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A99D199F7E92F941D9314C36338E477 /* OhCrap-OSX.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OhCrap-OSX.xcconfig"; sourceTree = "<group>"; };
+		1B21BFA0595C74B987516661BA0B8BFE /* Pods-ExampleWatchOS Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleWatchOS Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		1D6986A217AA828F76C03D8499EE6E29 /* Pods-ExampleWatchOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ExampleWatchOS.modulemap"; sourceTree = "<group>"; };
+		20F4E553C72E4E7E35FA59EDC4EAABFE /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
+		215C1F74F52D4FB93EDD9E39A645EE09 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		24FABD700894868294F6CEFE3BBA9E97 /* Pods-ExampleMacOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleMacOS.debug.xcconfig"; sourceTree = "<group>"; };
+		25423CB4F04BA5C8C9B748C9D533A8BA /* Pods-ExampleWatchOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExampleWatchOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		26DFC8AD611C68A8E2B88F5C3DBD0936 /* Pods-ExampleMacOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleMacOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		2A4198DC79643A13836503ED94A0ABB2 /* Pods-ExampleMacOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExampleMacOS-dummy.m"; sourceTree = "<group>"; };
+		2DDF042683E9A155F0FD1AA9D7BCF359 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
+		2EE27AFF81D1F955058191EA62636A7C /* Pods-ExampleMacOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleMacOS-resources.sh"; sourceTree = "<group>"; };
+		316155FA83556802295C3E062E4991B6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3173C3259C62AC2F4204D05DDB544BD6 /* Pods_ExampleMacOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ExampleMacOS.framework; path = "Pods-ExampleMacOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37520D1AA31457DF3C424AF8E3CF7E0A /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Example.framework; path = "Pods-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BFE8A97BB6360B1E43856154CEE1771 /* OhCrap-watchOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; name = "OhCrap-watchOS.modulemap"; path = "../OhCrap-watchOS/OhCrap-watchOS.modulemap"; sourceTree = "<group>"; };
+		3D5AE97C845D29B23F0CF36A1365F037 /* Pods-ExampleWatchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleWatchOS.release.xcconfig"; sourceTree = "<group>"; };
+		41762769A58F001DF88DF6FE8E6C1A6C /* Pods-ExampleWatchOS Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExampleWatchOS Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		44AB3B863024331F196079E22215ED89 /* Pods-ExampleMacOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ExampleMacOS.modulemap"; sourceTree = "<group>"; };
+		45A2FEF33E80C7C56AADE3CB2F8E3699 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS10.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4D6FA6A3D00652CC25C8FFC0522C708F /* OhCrap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OhCrap.h; sourceTree = "<group>"; };
+		5016D23051D18D4C8EBA9D7D938064EE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../OhCrap-watchOS/Info.plist"; sourceTree = "<group>"; };
+		530DF0C6CE7C7AA84AD0639AC0968477 /* Pods_ExampleTVOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ExampleTVOS.framework; path = "Pods-ExampleTVOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		534B8618DEB21DD992A2F032F8078080 /* OhCrap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OhCrap.framework; path = "OhCrap-watchOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		545F3A9E2D8F16C9FE3AC870FDF68904 /* Pods-ExampleWatchOS Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleWatchOS Extension.release.xcconfig"; sourceTree = "<group>"; };
+		55922996653EF55A3591B7AD07DAE075 /* Pods-ExampleWatchOS Extension-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleWatchOS Extension-resources.sh"; sourceTree = "<group>"; };
+		5C38120D0C78D352FC0F9F098B15830F /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
+		64074A49794F3FC88DAEDAB5A09C8AE0 /* Pods-ExampleTVOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleTVOS-frameworks.sh"; sourceTree = "<group>"; };
+		672E53E449F9CB6E5A0B78DC5419C607 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		6B8E2A93E2F502ED1D10A0F024A95626 /* Pods-ExampleTVOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ExampleTVOS-umbrella.h"; sourceTree = "<group>"; };
+		6DDF884B6953F9DB97F1F414E3896970 /* Pods-ExampleWatchOS Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExampleWatchOS Extension-dummy.m"; sourceTree = "<group>"; };
+		701AE7CEE16B90E117B48663E30358BC /* OhCrap-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OhCrap-iOS-prefix.pch"; path = "../OhCrap-iOS/OhCrap-iOS-prefix.pch"; sourceTree = "<group>"; };
+		70DE8F265A623F1402903B01B7D96A7C /* Pods-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-resources.sh"; sourceTree = "<group>"; };
+		77E76488C2CE9D2A40397426EC20C8F5 /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
+		7FFBDCEBF28E58DFA5103D1429E854A2 /* Pods_ExampleWatchOS_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ExampleWatchOS_Extension.framework; path = "Pods-ExampleWatchOS Extension.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		810AFCDD51B7EDD519851CAD0A46FE36 /* OhCrap-watchOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "OhCrap-watchOS.xcconfig"; path = "../OhCrap-watchOS/OhCrap-watchOS.xcconfig"; sourceTree = "<group>"; };
+		823ECEBB3EA971D46624D4DB188F4CE1 /* OhCrap-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "OhCrap-iOS.xcconfig"; path = "../OhCrap-iOS/OhCrap-iOS.xcconfig"; sourceTree = "<group>"; };
+		91F81839C44D604C7C660921DA0F0536 /* Pods-ExampleTVOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleTVOS.debug.xcconfig"; sourceTree = "<group>"; };
+		92613877FAC4547F48D32EC05E6C1530 /* OhCrap-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "OhCrap-iOS-dummy.m"; path = "../OhCrap-iOS/OhCrap-iOS-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99769FD7060670378150902EDA321AA3 /* OhCrapDefine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OhCrapDefine.swift; sourceTree = "<group>"; };
+		99CD07C32AD5DAF9F55C9A116F25A126 /* OhCrap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OhCrap.framework; path = "OhCrap-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ADD2AF794A8C8208D2AB3A7C61EBFA4 /* Pods-ExampleTVOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleTVOS.release.xcconfig"; sourceTree = "<group>"; };
+		9BF8974B0FA28CB6EFD606A695B50BF1 /* Pods-ExampleWatchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleWatchOS.debug.xcconfig"; sourceTree = "<group>"; };
+		9CB978CBC64E4BED11A20DBE454F859E /* Pods-ExampleWatchOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExampleWatchOS-dummy.m"; sourceTree = "<group>"; };
+		AAAE44A4F0D21F114DAEA8F2F38D1E3A /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AB11BD861B5371E85CD5FE1693219F52 /* Pods-ExampleWatchOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleWatchOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		AC7823C321500BC66A1C0172A1C1C99C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF81E78FB9AE41A8D43513895608666E /* Pods-ExampleWatchOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleWatchOS-resources.sh"; sourceTree = "<group>"; };
+		B1BD0BDEF7690095CC378EFA92A21077 /* OhCrap-watchOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OhCrap-watchOS-prefix.pch"; path = "../OhCrap-watchOS/OhCrap-watchOS-prefix.pch"; sourceTree = "<group>"; };
+		B29A1E7AC67F30D2C01E0F8A4ECA0683 /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B5CADBB3C37D6761CF11BE8EC1E04590 /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B63F3BA5A9565B825C217C9408F7BCB6 /* Pods-ExampleMacOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExampleMacOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B679F0FA77B255CFE9FC8EF068570C63 /* Pods-ExampleTVOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ExampleTVOS.modulemap"; sourceTree = "<group>"; };
+		B6D3A104D4B24AC51C2B929BFF6CA3B9 /* OhCrap-OSX-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OhCrap-OSX-umbrella.h"; sourceTree = "<group>"; };
+		BC059BF73D2953DF9715D9C0762F6409 /* Pods-ExampleTVOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleTVOS-resources.sh"; sourceTree = "<group>"; };
+		BEDC8783527FAC56B88714EC73018211 /* OhCrap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OhCrap.swift; sourceTree = "<group>"; };
+		C443A5B3C5E6D18ABF78A11EEDAB54F7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C632100F365F71949B3142DF0C522D4F /* Pods-ExampleWatchOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleWatchOS-frameworks.sh"; sourceTree = "<group>"; };
+		CCA421F2375FC7722B94BFA3878B105D /* Pods-ExampleWatchOS Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ExampleWatchOS Extension.modulemap"; sourceTree = "<group>"; };
+		CE04D4477CE6421FA0CF34ADD8859C85 /* Pods-ExampleWatchOS Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleWatchOS Extension-acknowledgements.plist"; sourceTree = "<group>"; };
+		CE6341D559A17D635BC4A04F3A782209 /* Pods_ExampleWatchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ExampleWatchOS.framework; path = "Pods-ExampleWatchOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D21C5E4C863184F3FD73D67030BF7002 /* OhCrap-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; name = "OhCrap-tvOS.modulemap"; path = "../OhCrap-tvOS/OhCrap-tvOS.modulemap"; sourceTree = "<group>"; };
+		D336B092264007873B87DD6BD3707C81 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS3.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D4026F25EAECB2F1AF97FE08ED43130D /* OhCrap-OSX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "OhCrap-OSX.modulemap"; sourceTree = "<group>"; };
+		D525184AFBB10CFBBBFC76F4C39F7229 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D9C9CCE73F91EF89CA0B4094A85E5320 /* Pods-ExampleTVOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExampleTVOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DB23A03814317A21544FE12C6CF88DDA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../OhCrap-tvOS/Info.plist"; sourceTree = "<group>"; };
+		DFC5991334517FB15BFBF93816B05284 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1D83200E1BB6A126592ABFA916EF91A /* Pods-ExampleMacOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ExampleMacOS-umbrella.h"; sourceTree = "<group>"; };
+		E2D1820905B4E05B3CC3B4FE5A9DBDB4 /* Pods-ExampleMacOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleMacOS-frameworks.sh"; sourceTree = "<group>"; };
+		E47FC718BBCEA8F20F89F23D199A26DC /* OhCrap-OSX-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OhCrap-OSX-prefix.pch"; sourceTree = "<group>"; };
+		E6AC655830A5CB25FA47A88D22596DF5 /* Pods-ExampleMacOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleMacOS.release.xcconfig"; sourceTree = "<group>"; };
+		E9A8D81382E7B98067230A5497CB055E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F350B71B02C15A417AFC8B7F3D09B39A /* Pods-ExampleWatchOS Extension-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleWatchOS Extension-frameworks.sh"; sourceTree = "<group>"; };
+		F389421584845BED5E3DE0442F66F7AE /* OhCrap-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OhCrap-tvOS-umbrella.h"; path = "../OhCrap-tvOS/OhCrap-tvOS-umbrella.h"; sourceTree = "<group>"; };
+		F7B22F8E83983C1C37ABED3348547C11 /* Pods-ExampleTVOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExampleTVOS-dummy.m"; sourceTree = "<group>"; };
+		FF8E47AC6EB725E789C5CC0A8038E36D /* OhCrap-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; name = "OhCrap-iOS.modulemap"; path = "../OhCrap-iOS/OhCrap-iOS.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		358F20F7F90067DD9254A52D3A9AAC19 /* Frameworks */ = {
+		0B8BC4740879EC25F771151820D27A30 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC5730500979A834C12F2B355D16B92A /* Foundation.framework in Frameworks */,
+				2AAC401A9401CDA98728336BA7793541 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3821E7EA53BDCC1815B2BDE0794E5D7D /* Frameworks */ = {
+		1C0E8E2F21224D1A1CBC62AE09AC1666 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85720DAF5255EF223BF47CAED9590553 /* Foundation.framework in Frameworks */,
+				3CF6BD10190C5DFEE668021EC441E3B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2422F79F989ED4CEA973656223C6F46D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AFEEB5C0A1374E66509EAD33B92C19C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C4C431BD5CD6668AE1975A85AA6B3A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2804636661D0331CABAC9224D4E59928 /* Cocoa.framework in Frameworks */,
+				3A8487F44B4C303309C8D0C684382186 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E72E33BA2DBD4B85D796459DFFC2C8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960FB92918E17A77734115E1D183891D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CBC943FD9EE4285E1FBBA541A5EEBC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F106965EE8849FBA5B7AB973CD86C005 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91AF185095F5EBF7531BD1F4B8140CAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				897232C922EB2F64A57FC9FC104D0E47 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA00910F99080957014E75734413E2CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA71E41DC0B7334617414502BEB65495 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D22A8FADDB4B09850CFBD42E82C0B326 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				420D8594B9E397F74B1BF18B597BFA33 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		348D2EFE63CAE3174F34FBA86A25C7FC /* OhCrap */ = {
+		06D0E24F85D34E218767DE1085649DA7 /* Pods-ExampleMacOS */ = {
 			isa = PBXGroup;
 			children = (
-				80CC4F3F4BC10D825A55D0A94B0D647E /* OhCrap */,
-				596E4917C973B9AD5327604B5DC89681 /* Support Files */,
+				C443A5B3C5E6D18ABF78A11EEDAB54F7 /* Info.plist */,
+				44AB3B863024331F196079E22215ED89 /* Pods-ExampleMacOS.modulemap */,
+				B63F3BA5A9565B825C217C9408F7BCB6 /* Pods-ExampleMacOS-acknowledgements.markdown */,
+				26DFC8AD611C68A8E2B88F5C3DBD0936 /* Pods-ExampleMacOS-acknowledgements.plist */,
+				2A4198DC79643A13836503ED94A0ABB2 /* Pods-ExampleMacOS-dummy.m */,
+				E2D1820905B4E05B3CC3B4FE5A9DBDB4 /* Pods-ExampleMacOS-frameworks.sh */,
+				2EE27AFF81D1F955058191EA62636A7C /* Pods-ExampleMacOS-resources.sh */,
+				E1D83200E1BB6A126592ABFA916EF91A /* Pods-ExampleMacOS-umbrella.h */,
+				24FABD700894868294F6CEFE3BBA9E97 /* Pods-ExampleMacOS.debug.xcconfig */,
+				E6AC655830A5CB25FA47A88D22596DF5 /* Pods-ExampleMacOS.release.xcconfig */,
 			);
-			name = OhCrap;
-			path = ../..;
+			name = "Pods-ExampleMacOS";
+			path = "Target Support Files/Pods-ExampleMacOS";
 			sourceTree = "<group>";
 		};
-		596E4917C973B9AD5327604B5DC89681 /* Support Files */ = {
+		135A2DAF2F03E54C081735064A19B643 /* watchOS */ = {
 			isa = PBXGroup;
 			children = (
-				08DEAACFAF2242CE497A3898F27D9DB4 /* Info.plist */,
-				CCC7847CC7EA09DC7454448D8FAD4F54 /* OhCrap.modulemap */,
-				CDD6E520781D8EB57122EA98D31273C6 /* OhCrap.xcconfig */,
-				6905522A7148578A67BE74FEB9A8EE6A /* OhCrap-dummy.m */,
-				D506C9F26E063F4AF57A27254954AE46 /* OhCrap-prefix.pch */,
-				EFE0A98F93E9C15F22139EC844E6870E /* OhCrap-umbrella.h */,
+				D336B092264007873B87DD6BD3707C81 /* Foundation.framework */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/OhCrap";
+			name = watchOS;
 			sourceTree = "<group>";
 		};
-		5BF91991EE03019D2199C5AB8A8B1477 /* Products */ = {
+		3C2BE73A1A5720183E43A02108A989D1 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				FDCC5C59489026BBD2251A43D010AD05 /* OhCrap.framework */,
-				1B6F0E6870E6E3A3CE794C613874F634 /* Pods_Example.framework */,
+				D525184AFBB10CFBBBFC76F4C39F7229 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		48953902995404E8E3D5703E1FC7C412 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17AE5CC8804D3071696DECACB403D38C /* OhCrap.framework */,
+				99CD07C32AD5DAF9F55C9A116F25A126 /* OhCrap.framework */,
+				02798F8639EE2A994B83F0F448BEB5B3 /* OhCrap.framework */,
+				534B8618DEB21DD992A2F032F8078080 /* OhCrap.framework */,
+				37520D1AA31457DF3C424AF8E3CF7E0A /* Pods_Example.framework */,
+				3173C3259C62AC2F4204D05DDB544BD6 /* Pods_ExampleMacOS.framework */,
+				530DF0C6CE7C7AA84AD0639AC0968477 /* Pods_ExampleTVOS.framework */,
+				CE6341D559A17D635BC4A04F3A782209 /* Pods_ExampleWatchOS.framework */,
+				7FFBDCEBF28E58DFA5103D1429E854A2 /* Pods_ExampleWatchOS_Extension.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6A4F6A14E3FB951290E4531728B7A461 /* Targets Support Files */ = {
+		522087C9D7BF98180A6B2AFE2E32BDE0 /* Pods-ExampleWatchOS */ = {
 			isa = PBXGroup;
 			children = (
-				FE9811ABEB5931E154211FCA14B78350 /* Pods-Example */,
+				DFC5991334517FB15BFBF93816B05284 /* Info.plist */,
+				1D6986A217AA828F76C03D8499EE6E29 /* Pods-ExampleWatchOS.modulemap */,
+				25423CB4F04BA5C8C9B748C9D533A8BA /* Pods-ExampleWatchOS-acknowledgements.markdown */,
+				AB11BD861B5371E85CD5FE1693219F52 /* Pods-ExampleWatchOS-acknowledgements.plist */,
+				9CB978CBC64E4BED11A20DBE454F859E /* Pods-ExampleWatchOS-dummy.m */,
+				C632100F365F71949B3142DF0C522D4F /* Pods-ExampleWatchOS-frameworks.sh */,
+				AF81E78FB9AE41A8D43513895608666E /* Pods-ExampleWatchOS-resources.sh */,
+				10AFB167572F969113735F6AA252ABFC /* Pods-ExampleWatchOS-umbrella.h */,
+				9BF8974B0FA28CB6EFD606A695B50BF1 /* Pods-ExampleWatchOS.debug.xcconfig */,
+				3D5AE97C845D29B23F0CF36A1365F037 /* Pods-ExampleWatchOS.release.xcconfig */,
+			);
+			name = "Pods-ExampleWatchOS";
+			path = "Target Support Files/Pods-ExampleWatchOS";
+			sourceTree = "<group>";
+		};
+		6221D4B78E08AA8D32D65318F356BE84 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2BB164CC7A7307ED7D6E4E043BC127F /* Pods-Example */,
+				06D0E24F85D34E218767DE1085649DA7 /* Pods-ExampleMacOS */,
+				7A46757E1BC2577DBEDD82082DFF99C7 /* Pods-ExampleTVOS */,
+				522087C9D7BF98180A6B2AFE2E32BDE0 /* Pods-ExampleWatchOS */,
+				FE57F4A2457797B36ABB652A575896B9 /* Pods-ExampleWatchOS Extension */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		6CF98A9221C16571DBD8FD0CBD3B5B81 /* Source */ = {
+		7A46757E1BC2577DBEDD82082DFF99C7 /* Pods-ExampleTVOS */ = {
 			isa = PBXGroup;
 			children = (
-				8F52A9AF04FA6891A9A243D13B508669 /* OhCrap.h */,
-				C76FAC5D1F4979C826983A5FBADB5C56 /* OhCrap.swift */,
-				D209F6A5DCBB15D6EFD7AB9CF45F1402 /* OhCrapDefine.swift */,
+				0112B77B07C048BB2D2EC4780CEA8739 /* Info.plist */,
+				B679F0FA77B255CFE9FC8EF068570C63 /* Pods-ExampleTVOS.modulemap */,
+				D9C9CCE73F91EF89CA0B4094A85E5320 /* Pods-ExampleTVOS-acknowledgements.markdown */,
+				08CA66380EF8DD73AC7CE49FEA718CB4 /* Pods-ExampleTVOS-acknowledgements.plist */,
+				F7B22F8E83983C1C37ABED3348547C11 /* Pods-ExampleTVOS-dummy.m */,
+				64074A49794F3FC88DAEDAB5A09C8AE0 /* Pods-ExampleTVOS-frameworks.sh */,
+				BC059BF73D2953DF9715D9C0762F6409 /* Pods-ExampleTVOS-resources.sh */,
+				6B8E2A93E2F502ED1D10A0F024A95626 /* Pods-ExampleTVOS-umbrella.h */,
+				91F81839C44D604C7C660921DA0F0536 /* Pods-ExampleTVOS.debug.xcconfig */,
+				9ADD2AF794A8C8208D2AB3A7C61EBFA4 /* Pods-ExampleTVOS.release.xcconfig */,
 			);
-			path = Source;
+			name = "Pods-ExampleTVOS";
+			path = "Target Support Files/Pods-ExampleTVOS";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -130,118 +362,384 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				B920DA3B1561CD14AF8A9E94ED314C9B /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				5BF91991EE03019D2199C5AB8A8B1477 /* Products */,
-				6A4F6A14E3FB951290E4531728B7A461 /* Targets Support Files */,
+				9CE66CDE1AE81A05FA082983A88A0B51 /* Frameworks */,
+				48953902995404E8E3D5703E1FC7C412 /* Products */,
+				6221D4B78E08AA8D32D65318F356BE84 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		80CC4F3F4BC10D825A55D0A94B0D647E /* OhCrap */ = {
+		9CE66CDE1AE81A05FA082983A88A0B51 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6CF98A9221C16571DBD8FD0CBD3B5B81 /* Source */,
+				3C2BE73A1A5720183E43A02108A989D1 /* iOS */,
+				B32A65AA48AEE3BCDABA0EDC6DC51248 /* OS X */,
+				A8529FDF89953F4E9EC38F6DD35E7898 /* tvOS */,
+				135A2DAF2F03E54C081735064A19B643 /* watchOS */,
 			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A21E637DCA8FB60567BCD6CC3BDAFADF /* OhCrap */ = {
+			isa = PBXGroup;
+			children = (
+				CD27C3DBF39F991C6257A435508720A8 /* Source */,
+			);
+			name = OhCrap;
 			path = OhCrap;
+			sourceTree = "<group>";
+		};
+		A8529FDF89953F4E9EC38F6DD35E7898 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				45A2FEF33E80C7C56AADE3CB2F8E3699 /* Foundation.framework */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+		B32A65AA48AEE3BCDABA0EDC6DC51248 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				672E53E449F9CB6E5A0B78DC5419C607 /* Cocoa.framework */,
+				215C1F74F52D4FB93EDD9E39A645EE09 /* Foundation.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		B906A03143E5CA5F4EACCC6F55A55611 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				07C7FB97EDB716F1B1C70E88AA328F96 /* Info.plist */,
+				AC7823C321500BC66A1C0172A1C1C99C /* Info.plist */,
+				5016D23051D18D4C8EBA9D7D938064EE /* Info.plist */,
+				DB23A03814317A21544FE12C6CF88DDA /* Info.plist */,
+				FF8E47AC6EB725E789C5CC0A8038E36D /* OhCrap-iOS.modulemap */,
+				823ECEBB3EA971D46624D4DB188F4CE1 /* OhCrap-iOS.xcconfig */,
+				92613877FAC4547F48D32EC05E6C1530 /* OhCrap-iOS-dummy.m */,
+				701AE7CEE16B90E117B48663E30358BC /* OhCrap-iOS-prefix.pch */,
+				016C947709D1FE9DCFEB7C68A8D5650E /* OhCrap-iOS-umbrella.h */,
+				D4026F25EAECB2F1AF97FE08ED43130D /* OhCrap-OSX.modulemap */,
+				1A99D199F7E92F941D9314C36338E477 /* OhCrap-OSX.xcconfig */,
+				07CCEB19441984BF9926173B974C330F /* OhCrap-OSX-dummy.m */,
+				E47FC718BBCEA8F20F89F23D199A26DC /* OhCrap-OSX-prefix.pch */,
+				B6D3A104D4B24AC51C2B929BFF6CA3B9 /* OhCrap-OSX-umbrella.h */,
+				D21C5E4C863184F3FD73D67030BF7002 /* OhCrap-tvOS.modulemap */,
+				14A59FEF8D1426C6F5C4EA4C56430F92 /* OhCrap-tvOS.xcconfig */,
+				11F85D02BDA0A9A4CE6732187C9B1D27 /* OhCrap-tvOS-dummy.m */,
+				154422B1D73FC33E0F77CE5058360CA3 /* OhCrap-tvOS-prefix.pch */,
+				F389421584845BED5E3DE0442F66F7AE /* OhCrap-tvOS-umbrella.h */,
+				3BFE8A97BB6360B1E43856154CEE1771 /* OhCrap-watchOS.modulemap */,
+				810AFCDD51B7EDD519851CAD0A46FE36 /* OhCrap-watchOS.xcconfig */,
+				15352993D04F28CA6E77B157F1350AD8 /* OhCrap-watchOS-dummy.m */,
+				B1BD0BDEF7690095CC378EFA92A21077 /* OhCrap-watchOS-prefix.pch */,
+				1002664AF2044FF11709F0A8863EB17A /* OhCrap-watchOS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OhCrap-OSX";
 			sourceTree = "<group>";
 		};
 		B920DA3B1561CD14AF8A9E94ED314C9B /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				348D2EFE63CAE3174F34FBA86A25C7FC /* OhCrap */,
+				D9C3891396FD787B8209ED475017786D /* OhCrap */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		CD27C3DBF39F991C6257A435508720A8 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				4D6FA6A3D00652CC25C8FFC0522C708F /* OhCrap.h */,
+				BEDC8783527FAC56B88714EC73018211 /* OhCrap.swift */,
+				99769FD7060670378150902EDA321AA3 /* OhCrapDefine.swift */,
 			);
-			name = Frameworks;
+			name = Source;
+			path = Source;
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+		D9C3891396FD787B8209ED475017786D /* OhCrap */ = {
 			isa = PBXGroup;
 			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				A21E637DCA8FB60567BCD6CC3BDAFADF /* OhCrap */,
+				B906A03143E5CA5F4EACCC6F55A55611 /* Support Files */,
 			);
-			name = iOS;
+			name = OhCrap;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		FE9811ABEB5931E154211FCA14B78350 /* Pods-Example */ = {
+		F2BB164CC7A7307ED7D6E4E043BC127F /* Pods-Example */ = {
 			isa = PBXGroup;
 			children = (
-				EFFB74AAA6B2AE8DABF0E88E61E09178 /* Info.plist */,
-				119072C64A19799964E1620D83F514FB /* Pods-Example.modulemap */,
-				A661FECCEBFF9D01869EE3B29C4C1EFF /* Pods-Example-acknowledgements.markdown */,
-				764D33E23CE6C1111110B04F5CBADADB /* Pods-Example-acknowledgements.plist */,
-				699118D7DDD5F335E4FB8B17DC0F12D2 /* Pods-Example-dummy.m */,
-				552550F3F912264E5D073F8893691F88 /* Pods-Example-frameworks.sh */,
-				01E6907CF2644EB1CF8E23F708A3DA0B /* Pods-Example-resources.sh */,
-				C9BDE82371C83FA9AE91B05F77ACAA36 /* Pods-Example-umbrella.h */,
-				149054C495E8EC590CAB4C524133016F /* Pods-Example.debug.xcconfig */,
-				E512A5F985F876750237FD237C3AEEDA /* Pods-Example.release.xcconfig */,
+				316155FA83556802295C3E062E4991B6 /* Info.plist */,
+				20F4E553C72E4E7E35FA59EDC4EAABFE /* Pods-Example.modulemap */,
+				B5CADBB3C37D6761CF11BE8EC1E04590 /* Pods-Example-acknowledgements.markdown */,
+				B29A1E7AC67F30D2C01E0F8A4ECA0683 /* Pods-Example-acknowledgements.plist */,
+				2DDF042683E9A155F0FD1AA9D7BCF359 /* Pods-Example-dummy.m */,
+				5C38120D0C78D352FC0F9F098B15830F /* Pods-Example-frameworks.sh */,
+				70DE8F265A623F1402903B01B7D96A7C /* Pods-Example-resources.sh */,
+				77E76488C2CE9D2A40397426EC20C8F5 /* Pods-Example-umbrella.h */,
+				AAAE44A4F0D21F114DAEA8F2F38D1E3A /* Pods-Example.debug.xcconfig */,
+				0376B750247E79E5AEA443601BC21350 /* Pods-Example.release.xcconfig */,
 			);
 			name = "Pods-Example";
 			path = "Target Support Files/Pods-Example";
 			sourceTree = "<group>";
 		};
+		FE57F4A2457797B36ABB652A575896B9 /* Pods-ExampleWatchOS Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E9A8D81382E7B98067230A5497CB055E /* Info.plist */,
+				CCA421F2375FC7722B94BFA3878B105D /* Pods-ExampleWatchOS Extension.modulemap */,
+				41762769A58F001DF88DF6FE8E6C1A6C /* Pods-ExampleWatchOS Extension-acknowledgements.markdown */,
+				CE04D4477CE6421FA0CF34ADD8859C85 /* Pods-ExampleWatchOS Extension-acknowledgements.plist */,
+				6DDF884B6953F9DB97F1F414E3896970 /* Pods-ExampleWatchOS Extension-dummy.m */,
+				F350B71B02C15A417AFC8B7F3D09B39A /* Pods-ExampleWatchOS Extension-frameworks.sh */,
+				55922996653EF55A3591B7AD07DAE075 /* Pods-ExampleWatchOS Extension-resources.sh */,
+				17451132DDEE5ACC3798D26B359FC1AE /* Pods-ExampleWatchOS Extension-umbrella.h */,
+				1B21BFA0595C74B987516661BA0B8BFE /* Pods-ExampleWatchOS Extension.debug.xcconfig */,
+				545F3A9E2D8F16C9FE3AC870FDF68904 /* Pods-ExampleWatchOS Extension.release.xcconfig */,
+			);
+			name = "Pods-ExampleWatchOS Extension";
+			path = "Target Support Files/Pods-ExampleWatchOS Extension";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4048B4F8DB721D423CC475443C7F588C /* Headers */ = {
+		3D1D99BCBAAD3894A1943C6177D19DAD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBA2B04796348DEEEBCC52D2CD0C781B /* Pods-Example-umbrella.h in Headers */,
+				42BCFCA5DAE35C5D18FE3CAE960AFDF1 /* Pods-Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B24E8AB55FC68612B51422280BD4C578 /* Headers */ = {
+		6F17B831CA420C49988CB03B95B6E32E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77CF6DDFAB5765C4DD3A6A2152D11BE6 /* OhCrap-umbrella.h in Headers */,
-				EB2B09E3C5B98484D61912622EAD5C3B /* OhCrap.h in Headers */,
+				2F1FC700D89C72F7B82F8AF364D7D429 /* Pods-ExampleTVOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EC9CC5B651DAD22B841E15BAC4B63DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA4A598C4BAC3902AF8DEE58170F74A /* OhCrap-watchOS-umbrella.h in Headers */,
+				AE99D96EEBC076D81E787EAB3FF4C7DE /* OhCrap.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27119D40F95BCAA26CEAE94344EBA86 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EB865D8FB84B9F5022FC4433FE42D08 /* OhCrap-iOS-umbrella.h in Headers */,
+				7FBF50E1708AE0F108F103653D6B454D /* OhCrap.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD35AF822A995311CCEBF62CF395418C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F41103EE1D217F7C10505B8C58F5F4 /* Pods-ExampleMacOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF8342CD0836DAA3AB44F94A95C5A867 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF521FA134100948A8DEC17C78F2D751 /* Pods-ExampleWatchOS Extension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D511DCC82DA67510D7B8FD7FF754BCE9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7E8EF6BDEFE3638F8E92B908EEEBDDE /* OhCrap-OSX-umbrella.h in Headers */,
+				6CEBB8070DC480D7CC2C6F0D7B6B6C0E /* OhCrap.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69C40FA460E70A902CF425B8D4376A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D708895F7E2B2D7553FBC527999DBF9 /* Pods-ExampleWatchOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD6E9586582688B7CF04B85D6CB7B8F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				086B11C9C062A1E8F10922692A437F99 /* OhCrap-tvOS-umbrella.h in Headers */,
+				4905EFFF65ADACE4E937EF2B573E805E /* OhCrap.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5C94CAF55BA1DE25284605EF1F3FF35B /* OhCrap */ = {
+		07FD5096FE79093F5EBFC0BFE878A83D /* Pods-ExampleWatchOS Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 474916B79512DA05C8DC271C3C029F65 /* Build configuration list for PBXNativeTarget "OhCrap" */;
+			buildConfigurationList = FBF8E5F1713A8482E2E8A34B6E4BF3EC /* Build configuration list for PBXNativeTarget "Pods-ExampleWatchOS Extension" */;
 			buildPhases = (
-				5C7B8F60808ED4A4264B7F6591B7CD08 /* Sources */,
-				3821E7EA53BDCC1815B2BDE0794E5D7D /* Frameworks */,
-				B24E8AB55FC68612B51422280BD4C578 /* Headers */,
+				C9DCB4ACE8092133C5702362CDCC5D14 /* Sources */,
+				5CBC943FD9EE4285E1FBBA541A5EEBC3 /* Frameworks */,
+				CF8342CD0836DAA3AB44F94A95C5A867 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				AAE10EAA84835A95C3D3518659A3F5BA /* PBXTargetDependency */,
 			);
-			name = OhCrap;
-			productName = OhCrap;
-			productReference = FDCC5C59489026BBD2251A43D010AD05 /* OhCrap.framework */;
+			name = "Pods-ExampleWatchOS Extension";
+			productName = "Pods-ExampleWatchOS Extension";
+			productReference = 7FFBDCEBF28E58DFA5103D1429E854A2 /* Pods_ExampleWatchOS_Extension.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A36F1EC8CE050EB6A3F777DFF80DBC90 /* Pods-Example */ = {
+		38684901A9696DDBE714F9048C4E982B /* OhCrap-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6352AC41BF94D263305FA615DAADF44E /* Build configuration list for PBXNativeTarget "Pods-Example" */;
+			buildConfigurationList = DC1DDAB576E1832C92A481CDE540CA6C /* Build configuration list for PBXNativeTarget "OhCrap-iOS" */;
 			buildPhases = (
-				0123DF04CEAECE622624CF4AAA86F01E /* Sources */,
-				358F20F7F90067DD9254A52D3A9AAC19 /* Frameworks */,
-				4048B4F8DB721D423CC475443C7F588C /* Headers */,
+				3524E59EE6AAA20B9CE06A8BA2266C4F /* Sources */,
+				2422F79F989ED4CEA973656223C6F46D /* Frameworks */,
+				A27119D40F95BCAA26CEAE94344EBA86 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B978F6FA28797C9B4E352EADA47EFBFC /* PBXTargetDependency */,
+			);
+			name = "OhCrap-iOS";
+			productName = "OhCrap-iOS";
+			productReference = 99CD07C32AD5DAF9F55C9A116F25A126 /* OhCrap.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		38C2DEF6DF3D9A2DDE4CB3718FC4B990 /* OhCrap-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B8B428C2DF394C8AFFDD358D9CD246A /* Build configuration list for PBXNativeTarget "OhCrap-tvOS" */;
+			buildPhases = (
+				DBFE051995FD9BE836BEC778630AE272 /* Sources */,
+				0B8BC4740879EC25F771151820D27A30 /* Frameworks */,
+				FAD6E9586582688B7CF04B85D6CB7B8F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OhCrap-tvOS";
+			productName = "OhCrap-tvOS";
+			productReference = 02798F8639EE2A994B83F0F448BEB5B3 /* OhCrap.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		55ECFA1F1EDD5E5A44CD5B874E643C81 /* Pods-ExampleMacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 533D3FEC593879C6B519C407243FE64A /* Build configuration list for PBXNativeTarget "Pods-ExampleMacOS" */;
+			buildPhases = (
+				1C9B625B1B960FF8CA215A41F9516A76 /* Sources */,
+				91AF185095F5EBF7531BD1F4B8140CAA /* Frameworks */,
+				AD35AF822A995311CCEBF62CF395418C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDAADF0D03450A920E3F500FD9090765 /* PBXTargetDependency */,
+			);
+			name = "Pods-ExampleMacOS";
+			productName = "Pods-ExampleMacOS";
+			productReference = 3173C3259C62AC2F4204D05DDB544BD6 /* Pods_ExampleMacOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		72E03425AEE75BCD31E2B2CEAC909B9C /* Pods-ExampleTVOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE79FACC57BBB088D667FBD1C53F3792 /* Build configuration list for PBXNativeTarget "Pods-ExampleTVOS" */;
+			buildPhases = (
+				FF31CB58D42E96BBD0453569DED7FB7D /* Sources */,
+				AA00910F99080957014E75734413E2CD /* Frameworks */,
+				6F17B831CA420C49988CB03B95B6E32E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C57771F8BA5F3D3041811ED9BC86E540 /* PBXTargetDependency */,
+			);
+			name = "Pods-ExampleTVOS";
+			productName = "Pods-ExampleTVOS";
+			productReference = 530DF0C6CE7C7AA84AD0639AC0968477 /* Pods_ExampleTVOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		91B3742E7FA11AADE6A194CEE95D4979 /* OhCrap-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 094A563170315CB5EF2D8379118DED50 /* Build configuration list for PBXNativeTarget "OhCrap-OSX" */;
+			buildPhases = (
+				78C13426D29D4774C292BFFBAAE6A3EA /* Sources */,
+				2C4C431BD5CD6668AE1975A85AA6B3A6 /* Frameworks */,
+				D511DCC82DA67510D7B8FD7FF754BCE9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OhCrap-OSX";
+			productName = "OhCrap-OSX";
+			productReference = 17AE5CC8804D3071696DECACB403D38C /* OhCrap.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9CEDE03E53F9EE7583AC32873D8A29EA /* OhCrap-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8952459B0AB25B722EA64AEFDBF87EC2 /* Build configuration list for PBXNativeTarget "OhCrap-watchOS" */;
+			buildPhases = (
+				CBB3C962F713D92BFAA4B5305159434F /* Sources */,
+				1C0E8E2F21224D1A1CBC62AE09AC1666 /* Frameworks */,
+				7EC9CC5B651DAD22B841E15BAC4B63DA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OhCrap-watchOS";
+			productName = "OhCrap-watchOS";
+			productReference = 534B8618DEB21DD992A2F032F8078080 /* OhCrap.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D0D19BCD4DEB83FC627366D1891F1484 /* Pods-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8592944CA5712F4B996D1F9BEB328CCF /* Build configuration list for PBXNativeTarget "Pods-Example" */;
+			buildPhases = (
+				508747123DA6AF8253B8EB23778CFE46 /* Sources */,
+				2E72E33BA2DBD4B85D796459DFFC2C8C /* Frameworks */,
+				3D1D99BCBAAD3894A1943C6177D19DAD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8C0BF7D0A1C82CB41D3F5E93244B840 /* PBXTargetDependency */,
 			);
 			name = "Pods-Example";
 			productName = "Pods-Example";
-			productReference = 1B6F0E6870E6E3A3CE794C613874F634 /* Pods_Example.framework */;
+			productReference = 37520D1AA31457DF3C424AF8E3CF7E0A /* Pods_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FC121A2ED655D8432247783B9ED04A4C /* Pods-ExampleWatchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 277EA07470861484ACFDC34FE8AAEF78 /* Build configuration list for PBXNativeTarget "Pods-ExampleWatchOS" */;
+			buildPhases = (
+				903E3D3DA72D8C32FDC0542EABD163C8 /* Sources */,
+				D22A8FADDB4B09850CFBD42E82C0B326 /* Frameworks */,
+				D69C40FA460E70A902CF425B8D4376A4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B29D14D1FC4D4A9E17F1E50F0790B098 /* PBXTargetDependency */,
+			);
+			name = "Pods-ExampleWatchOS";
+			productName = "Pods-ExampleWatchOS";
+			productReference = CE6341D559A17D635BC4A04F3A782209 /* Pods_ExampleWatchOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -261,50 +759,143 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 5BF91991EE03019D2199C5AB8A8B1477 /* Products */;
+			productRefGroup = 48953902995404E8E3D5703E1FC7C412 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5C94CAF55BA1DE25284605EF1F3FF35B /* OhCrap */,
-				A36F1EC8CE050EB6A3F777DFF80DBC90 /* Pods-Example */,
+				38684901A9696DDBE714F9048C4E982B /* OhCrap-iOS */,
+				91B3742E7FA11AADE6A194CEE95D4979 /* OhCrap-OSX */,
+				38C2DEF6DF3D9A2DDE4CB3718FC4B990 /* OhCrap-tvOS */,
+				9CEDE03E53F9EE7583AC32873D8A29EA /* OhCrap-watchOS */,
+				D0D19BCD4DEB83FC627366D1891F1484 /* Pods-Example */,
+				55ECFA1F1EDD5E5A44CD5B874E643C81 /* Pods-ExampleMacOS */,
+				72E03425AEE75BCD31E2B2CEAC909B9C /* Pods-ExampleTVOS */,
+				FC121A2ED655D8432247783B9ED04A4C /* Pods-ExampleWatchOS */,
+				07FD5096FE79093F5EBFC0BFE878A83D /* Pods-ExampleWatchOS Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0123DF04CEAECE622624CF4AAA86F01E /* Sources */ = {
+		1C9B625B1B960FF8CA215A41F9516A76 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FF530BEE5EDD37A105EBFF0EC291A57 /* Pods-Example-dummy.m in Sources */,
+				06E734ABC119461B31AF7AD410F17D85 /* Pods-ExampleMacOS-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C7B8F60808ED4A4264B7F6591B7CD08 /* Sources */ = {
+		3524E59EE6AAA20B9CE06A8BA2266C4F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B4638F30F63D7CB3E60CC19A26935AF /* OhCrap-dummy.m in Sources */,
-				EFBF5648F3BA68D9B0075FC20D9A12A8 /* OhCrap.swift in Sources */,
-				E9A6064322F07F84FB7F73FC2801514E /* OhCrapDefine.swift in Sources */,
+				FCE3585A9F7A66307CF3487E152E39A8 /* OhCrap-iOS-dummy.m in Sources */,
+				EE40042252A15FFC93FA79BCA480D624 /* OhCrap.swift in Sources */,
+				56497E001C2D4E06525896BD3B168965 /* OhCrapDefine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		508747123DA6AF8253B8EB23778CFE46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F900EFADC5FD7D33F5F2B6B706F319D2 /* Pods-Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78C13426D29D4774C292BFFBAAE6A3EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				139F3FA63DF75DC52ED1552D8112DF8C /* OhCrap-OSX-dummy.m in Sources */,
+				8BFB1DC7868FAEB71A05192B89FD1E16 /* OhCrap.swift in Sources */,
+				FC360288DF1574C4F84C29EA6334422D /* OhCrapDefine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903E3D3DA72D8C32FDC0542EABD163C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D36FDF276DE249743460C0C6BD7BC0B /* Pods-ExampleWatchOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9DCB4ACE8092133C5702362CDCC5D14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FEEA2E2DBEDEA511CE6AE194E157881 /* Pods-ExampleWatchOS Extension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBB3C962F713D92BFAA4B5305159434F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29DD7FE7B46DF010A3231EB1B0F9C546 /* OhCrap-watchOS-dummy.m in Sources */,
+				33EDC9AAC4463ED3E6276B6DE285A350 /* OhCrap.swift in Sources */,
+				1AF644C226A1DC2C8DE376FB277046C2 /* OhCrapDefine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBFE051995FD9BE836BEC778630AE272 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61883CF623B467252F77208E17FA948E /* OhCrap-tvOS-dummy.m in Sources */,
+				DD820D8C2270350B8CD12E9F01189404 /* OhCrap.swift in Sources */,
+				36964085BBC16CC56A1B7D5463193B98 /* OhCrapDefine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF31CB58D42E96BBD0453569DED7FB7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31E0E21CCB5B8020850C9055558E6953 /* Pods-ExampleTVOS-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B978F6FA28797C9B4E352EADA47EFBFC /* PBXTargetDependency */ = {
+		AAE10EAA84835A95C3D3518659A3F5BA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = OhCrap;
-			target = 5C94CAF55BA1DE25284605EF1F3FF35B /* OhCrap */;
-			targetProxy = A83DA52E7F3016D20CCCA7E4B2B6DA46 /* PBXContainerItemProxy */;
+			name = "OhCrap-watchOS";
+			target = 9CEDE03E53F9EE7583AC32873D8A29EA /* OhCrap-watchOS */;
+			targetProxy = B3202FC8C2F10CC9C40ECB2B545C6528 /* PBXContainerItemProxy */;
+		};
+		B29D14D1FC4D4A9E17F1E50F0790B098 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OhCrap-watchOS";
+			target = 9CEDE03E53F9EE7583AC32873D8A29EA /* OhCrap-watchOS */;
+			targetProxy = A938DB12071BD837A840BF18BEACF62D /* PBXContainerItemProxy */;
+		};
+		B8C0BF7D0A1C82CB41D3F5E93244B840 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OhCrap-iOS";
+			target = 38684901A9696DDBE714F9048C4E982B /* OhCrap-iOS */;
+			targetProxy = 236FD1454EFD62D681E82878D3A3B3C6 /* PBXContainerItemProxy */;
+		};
+		C57771F8BA5F3D3041811ED9BC86E540 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OhCrap-tvOS";
+			target = 38C2DEF6DF3D9A2DDE4CB3718FC4B990 /* OhCrap-tvOS */;
+			targetProxy = 04201280762DF0799482AEFC891913A8 /* PBXContainerItemProxy */;
+		};
+		CDAADF0D03450A920E3F500FD9090765 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OhCrap-OSX";
+			target = 91B3742E7FA11AADE6A194CEE95D4979 /* OhCrap-OSX */;
+			targetProxy = 9B9F67E5476B8C0D885A70A190A6F4B0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		095EB6E1F1D8C8B16B6BEC910BB1A4F9 /* Release */ = {
+		01013238A18EF9DC3347E1CE8509909A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E512A5F985F876750237FD237C3AEEDA /* Pods-Example.release.xcconfig */;
+			baseConfigurationReference = 0376B750247E79E5AEA443601BC21350 /* Pods-Example.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -340,7 +931,7 @@
 			};
 			name = Release;
 		};
-		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
+		0692FF7454CFF769D6C1A7DC73FCEA80 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -377,51 +968,61 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
-		A195A7243337AD5D4FE83DD9ABD03C8B /* Release */ = {
+		0BE8EF3FAC93CE6885AB2A11DA5EDE23 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDD6E520781D8EB57122EA98D31273C6 /* OhCrap.xcconfig */;
+			baseConfigurationReference = 24FABD700894868294F6CEFE3BBA9E97 /* Pods-ExampleMacOS.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/OhCrap/OhCrap-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OhCrap/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-ExampleMacOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OhCrap/OhCrap.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = OhCrap;
-				SDKROOT = iphoneos;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-ExampleMacOS/Pods-ExampleMacOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ExampleMacOS;
+				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		B86A6CA01D1BC6E66FA921878DFFEBF3 /* Debug */ = {
+		33083326F14C121B18115D4E3C542C99 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDD6E520781D8EB57122EA98D31273C6 /* OhCrap.xcconfig */;
+			baseConfigurationReference = 9BF8974B0FA28CB6EFD606A695B50BF1 /* Pods-ExampleWatchOS.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -434,26 +1035,30 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/OhCrap/OhCrap-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OhCrap/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-ExampleWatchOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OhCrap/OhCrap.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ExampleWatchOS/Pods-ExampleWatchOS.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = OhCrap;
-				SDKROOT = iphoneos;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ExampleWatchOS;
+				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 4;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
-		C104F7F091290C3D1E248192F07FE689 /* Debug */ = {
+		33379CED7D34F5EC700D22CBA988FB68 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -494,16 +1099,239 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
-		CD006202082D3176F60BADEB0393E87A /* Debug */ = {
+		3FEACEEABBDBBEE5A50780137C49DE3A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 149054C495E8EC590CAB4C524133016F /* Pods-Example.debug.xcconfig */;
+			baseConfigurationReference = 810AFCDD51B7EDD519851CAD0A46FE36 /* OhCrap-watchOS.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OhCrap-watchOS/OhCrap-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OhCrap-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OhCrap-watchOS/OhCrap-watchOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = OhCrap;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		450436D7DF26A17A2C088AF7CEB976B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B21BFA0595C74B987516661BA0B8BFE /* Pods-ExampleWatchOS Extension.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ExampleWatchOS Extension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ExampleWatchOS Extension/Pods-ExampleWatchOS Extension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ExampleWatchOS_Extension;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		480D461E28BDA988D32429FD1CCBB458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D5AE97C845D29B23F0CF36A1365F037 /* Pods-ExampleWatchOS.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ExampleWatchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ExampleWatchOS/Pods-ExampleWatchOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ExampleWatchOS;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		4A3DC62BA0A8E7D5DA8AD5BB85633A8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 823ECEBB3EA971D46624D4DB188F4CE1 /* OhCrap-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OhCrap-iOS/OhCrap-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OhCrap-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OhCrap-iOS/OhCrap-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = OhCrap;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		50B1E9B2B2D7C4F894475C49D4EF2544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A99D199F7E92F941D9314C36338E477 /* OhCrap-OSX.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OhCrap-OSX/OhCrap-OSX-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OhCrap-OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/OhCrap-OSX/OhCrap-OSX.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = OhCrap;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		67457AF8EC415A6A172D5D8ED1BA0A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14A59FEF8D1426C6F5C4EA4C56430F92 /* OhCrap-tvOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OhCrap-tvOS/OhCrap-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OhCrap-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OhCrap-tvOS/OhCrap-tvOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = OhCrap;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6A1C25AA7B993AD2F661A33F26EC46BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAAE44A4F0D21F114DAEA8F2F38D1E3A /* Pods-Example.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -540,32 +1368,389 @@
 			};
 			name = Debug;
 		};
+		7B0A4721FE3B2001183821A53A719F8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 810AFCDD51B7EDD519851CAD0A46FE36 /* OhCrap-watchOS.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OhCrap-watchOS/OhCrap-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OhCrap-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OhCrap-watchOS/OhCrap-watchOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = OhCrap;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		966D8D59CCDBB037DF6276329D9F20BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6AC655830A5CB25FA47A88D22596DF5 /* Pods-ExampleMacOS.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ExampleMacOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-ExampleMacOS/Pods-ExampleMacOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ExampleMacOS;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		97D628310706A09BD7AD771B489B449D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14A59FEF8D1426C6F5C4EA4C56430F92 /* OhCrap-tvOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OhCrap-tvOS/OhCrap-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OhCrap-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OhCrap-tvOS/OhCrap-tvOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = OhCrap;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BEDC221D050721DFD2A371BAA48C9082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91F81839C44D604C7C660921DA0F0536 /* Pods-ExampleTVOS.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ExampleTVOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ExampleTVOS/Pods-ExampleTVOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ExampleTVOS;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D0E73EB24CF8BC1DFFEC6057D9F2C0B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A99D199F7E92F941D9314C36338E477 /* OhCrap-OSX.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OhCrap-OSX/OhCrap-OSX-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OhCrap-OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/OhCrap-OSX/OhCrap-OSX.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = OhCrap;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D21D94F200865B86E353D9BA9C2F7364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ADD2AF794A8C8208D2AB3A7C61EBFA4 /* Pods-ExampleTVOS.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ExampleTVOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ExampleTVOS/Pods-ExampleTVOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ExampleTVOS;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D81330A94C5E53E2AEC12B9D801B7576 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 823ECEBB3EA971D46624D4DB188F4CE1 /* OhCrap-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OhCrap-iOS/OhCrap-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OhCrap-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OhCrap-iOS/OhCrap-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = OhCrap;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD9F69A5A667A0F1BB556E9ADDDC7FA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 545F3A9E2D8F16C9FE3AC870FDF68904 /* Pods-ExampleWatchOS Extension.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ExampleWatchOS Extension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ExampleWatchOS Extension/Pods-ExampleWatchOS Extension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ExampleWatchOS_Extension;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		094A563170315CB5EF2D8379118DED50 /* Build configuration list for PBXNativeTarget "OhCrap-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E73EB24CF8BC1DFFEC6057D9F2C0B2 /* Debug */,
+				50B1E9B2B2D7C4F894475C49D4EF2544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		277EA07470861484ACFDC34FE8AAEF78 /* Build configuration list for PBXNativeTarget "Pods-ExampleWatchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33083326F14C121B18115D4E3C542C99 /* Debug */,
+				480D461E28BDA988D32429FD1CCBB458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C104F7F091290C3D1E248192F07FE689 /* Debug */,
-				34FE9531DA9AF2820790339988D5FF41 /* Release */,
+				33379CED7D34F5EC700D22CBA988FB68 /* Debug */,
+				0692FF7454CFF769D6C1A7DC73FCEA80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		474916B79512DA05C8DC271C3C029F65 /* Build configuration list for PBXNativeTarget "OhCrap" */ = {
+		533D3FEC593879C6B519C407243FE64A /* Build configuration list for PBXNativeTarget "Pods-ExampleMacOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B86A6CA01D1BC6E66FA921878DFFEBF3 /* Debug */,
-				A195A7243337AD5D4FE83DD9ABD03C8B /* Release */,
+				0BE8EF3FAC93CE6885AB2A11DA5EDE23 /* Debug */,
+				966D8D59CCDBB037DF6276329D9F20BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6352AC41BF94D263305FA615DAADF44E /* Build configuration list for PBXNativeTarget "Pods-Example" */ = {
+		5B8B428C2DF394C8AFFDD358D9CD246A /* Build configuration list for PBXNativeTarget "OhCrap-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CD006202082D3176F60BADEB0393E87A /* Debug */,
-				095EB6E1F1D8C8B16B6BEC910BB1A4F9 /* Release */,
+				67457AF8EC415A6A172D5D8ED1BA0A64 /* Debug */,
+				97D628310706A09BD7AD771B489B449D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8592944CA5712F4B996D1F9BEB328CCF /* Build configuration list for PBXNativeTarget "Pods-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A1C25AA7B993AD2F661A33F26EC46BB /* Debug */,
+				01013238A18EF9DC3347E1CE8509909A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8952459B0AB25B722EA64AEFDBF87EC2 /* Build configuration list for PBXNativeTarget "OhCrap-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FEACEEABBDBBEE5A50780137C49DE3A /* Debug */,
+				7B0A4721FE3B2001183821A53A719F8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC1DDAB576E1832C92A481CDE540CA6C /* Build configuration list for PBXNativeTarget "OhCrap-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A3DC62BA0A8E7D5DA8AD5BB85633A8B /* Debug */,
+				D81330A94C5E53E2AEC12B9D801B7576 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBF8E5F1713A8482E2E8A34B6E4BF3EC /* Build configuration list for PBXNativeTarget "Pods-ExampleWatchOS Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				450436D7DF26A17A2C088AF7CEB976B3 /* Debug */,
+				DD9F69A5A667A0F1BB556E9ADDDC7FA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE79FACC57BBB088D667FBD1C53F3792 /* Build configuration list for PBXNativeTarget "Pods-ExampleTVOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEDC221D050721DFD2A371BAA48C9082 /* Debug */,
+				D21D94F200865B86E353D9BA9C2F7364 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -5,8 +5,7 @@
 //  Created by Meniny on 2017-05-11.
 //  Copyright © 2017年 Meniny. All rights reserved.
 //
-
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for OhCrap.
 FOUNDATION_EXPORT double OhCrapVersionNumber;

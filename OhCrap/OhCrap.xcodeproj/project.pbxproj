@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5C6AB1111EC3F6D900C1D10B /* OhCrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6AB1101EC3F6D900C1D10B /* OhCrap.swift */; };
-		5C6AB1161EC4080100C1D10B /* OhCrap.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C6AB1141EC4080100C1D10B /* OhCrap.h */; };
-		5C6AB1171EC4080100C1D10B /* OhCrapDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6AB1151EC4080100C1D10B /* OhCrapDefine.swift */; };
+		5C6AB12B1EC424C000C1D10B /* OhCrap.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C6AB1281EC424C000C1D10B /* OhCrap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C6AB12C1EC424C000C1D10B /* OhCrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6AB1291EC424C000C1D10B /* OhCrap.swift */; };
+		5C6AB12D1EC424C000C1D10B /* OhCrapDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6AB12A1EC424C000C1D10B /* OhCrapDefine.swift */; };
+		5C6AB12E1EC424D500C1D10B /* OhCrap.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C6AB1281EC424C000C1D10B /* OhCrap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C6AB12F1EC4255000C1D10B /* OhCrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6AB1291EC424C000C1D10B /* OhCrap.swift */; };
+		5C6AB1301EC4255000C1D10B /* OhCrapDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6AB12A1EC424C000C1D10B /* OhCrapDefine.swift */; };
+		5C6AB1321EC4274A00C1D10B /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6AB1311EC4274A00C1D10B /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5C6AB0E71EC3F5AE00C1D10B /* OhCrap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OhCrap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C6AB0EB1EC3F5AE00C1D10B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5C6AB1101EC3F6D900C1D10B /* OhCrap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OhCrap.swift; path = Source/OhCrap.swift; sourceTree = SOURCE_ROOT; };
-		5C6AB1141EC4080100C1D10B /* OhCrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OhCrap.h; sourceTree = "<group>"; };
-		5C6AB1151EC4080100C1D10B /* OhCrapDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OhCrapDefine.swift; sourceTree = "<group>"; };
+		5C6AB11F1EC4248F00C1D10B /* OhCrapMacOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OhCrapMacOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C6AB1221EC4248F00C1D10B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C6AB1281EC424C000C1D10B /* OhCrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OhCrap.h; sourceTree = "<group>"; };
+		5C6AB1291EC424C000C1D10B /* OhCrap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OhCrap.swift; sourceTree = "<group>"; };
+		5C6AB12A1EC424C000C1D10B /* OhCrapDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OhCrapDefine.swift; sourceTree = "<group>"; };
+		5C6AB1311EC4274A00C1D10B /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5C6AB0E31EC3F5AE00C1D10B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C6AB11B1EC4248F00C1D10B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -34,7 +48,9 @@
 		5C6AB0DD1EC3F5AE00C1D10B = {
 			isa = PBXGroup;
 			children = (
+				5C6AB1271EC424C000C1D10B /* Source */,
 				5C6AB0E91EC3F5AE00C1D10B /* OhCrap */,
+				5C6AB1201EC4248F00C1D10B /* OhCrapMacOS */,
 				5C6AB0E81EC3F5AE00C1D10B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				5C6AB0E71EC3F5AE00C1D10B /* OhCrap.framework */,
+				5C6AB11F1EC4248F00C1D10B /* OhCrapMacOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -50,12 +67,28 @@
 		5C6AB0E91EC3F5AE00C1D10B /* OhCrap */ = {
 			isa = PBXGroup;
 			children = (
-				5C6AB1141EC4080100C1D10B /* OhCrap.h */,
-				5C6AB1101EC3F6D900C1D10B /* OhCrap.swift */,
-				5C6AB1151EC4080100C1D10B /* OhCrapDefine.swift */,
 				5C6AB0EB1EC3F5AE00C1D10B /* Info.plist */,
 			);
 			path = OhCrap;
+			sourceTree = "<group>";
+		};
+		5C6AB1201EC4248F00C1D10B /* OhCrapMacOS */ = {
+			isa = PBXGroup;
+			children = (
+				5C6AB1221EC4248F00C1D10B /* Info.plist */,
+				5C6AB1311EC4274A00C1D10B /* File.swift */,
+			);
+			path = OhCrapMacOS;
+			sourceTree = "<group>";
+		};
+		5C6AB1271EC424C000C1D10B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				5C6AB1281EC424C000C1D10B /* OhCrap.h */,
+				5C6AB1291EC424C000C1D10B /* OhCrap.swift */,
+				5C6AB12A1EC424C000C1D10B /* OhCrapDefine.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -65,7 +98,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C6AB1161EC4080100C1D10B /* OhCrap.h in Headers */,
+				5C6AB12B1EC424C000C1D10B /* OhCrap.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C6AB11C1EC4248F00C1D10B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6AB12E1EC424D500C1D10B /* OhCrap.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +131,24 @@
 			productReference = 5C6AB0E71EC3F5AE00C1D10B /* OhCrap.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		5C6AB11E1EC4248F00C1D10B /* OhCrapMacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C6AB1261EC4248F00C1D10B /* Build configuration list for PBXNativeTarget "OhCrapMacOS" */;
+			buildPhases = (
+				5C6AB11A1EC4248F00C1D10B /* Sources */,
+				5C6AB11B1EC4248F00C1D10B /* Frameworks */,
+				5C6AB11C1EC4248F00C1D10B /* Headers */,
+				5C6AB11D1EC4248F00C1D10B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OhCrapMacOS;
+			productName = OhCrapMacOS;
+			productReference = 5C6AB11F1EC4248F00C1D10B /* OhCrapMacOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -103,6 +162,11 @@
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 63YL5QDMNS;
 						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					5C6AB11E1EC4248F00C1D10B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 63YL5QDMNS;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -120,12 +184,20 @@
 			projectRoot = "";
 			targets = (
 				5C6AB0E61EC3F5AE00C1D10B /* OhCrap */,
+				5C6AB11E1EC4248F00C1D10B /* OhCrapMacOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		5C6AB0E51EC3F5AE00C1D10B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C6AB11D1EC4248F00C1D10B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -139,8 +211,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C6AB1111EC3F6D900C1D10B /* OhCrap.swift in Sources */,
-				5C6AB1171EC4080100C1D10B /* OhCrapDefine.swift in Sources */,
+				5C6AB12C1EC424C000C1D10B /* OhCrap.swift in Sources */,
+				5C6AB12D1EC424C000C1D10B /* OhCrapDefine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C6AB11A1EC4248F00C1D10B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6AB12F1EC4255000C1D10B /* OhCrap.swift in Sources */,
+				5C6AB1321EC4274A00C1D10B /* File.swift in Sources */,
+				5C6AB1301EC4255000C1D10B /* OhCrapDefine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +371,52 @@
 			};
 			name = Release;
 		};
+		5C6AB1241EC4248F00C1D10B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 63YL5QDMNS;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = OhCrapMacOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.meniny.OhCrapMacOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5C6AB1251EC4248F00C1D10B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 63YL5QDMNS;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = OhCrapMacOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.meniny.OhCrapMacOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -309,6 +437,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		5C6AB1261EC4248F00C1D10B /* Build configuration list for PBXNativeTarget "OhCrapMacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C6AB1241EC4248F00C1D10B /* Debug */,
+				5C6AB1251EC4248F00C1D10B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

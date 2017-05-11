@@ -33,13 +33,12 @@ extension OhCrap {
         case assertCFileKey =           "OhCrapAssertCFileKey"
         case assertCLineKey =           "OhCrapAssertCLineKey"
         
-        case envInfoKey =               "OhCrapEnvInfoKey"
-        
         case appNameKey =               "OhCrapAppNameKey"
         case appVersionKey =            "OhCrapAppVersionKey"
+        
         case deviceModelKey =           "OhCrapDeviceModelKey"
-        case osVersionKey =             "OhCrapOSVersionKey"
         case osNameKey =                "OhCrapOSNameKey"
+        case osVersionKey =             "OhCrapOSVersionKey"
     }
     
     public enum Signal: String {

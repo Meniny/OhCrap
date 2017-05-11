@@ -112,16 +112,12 @@ public final class OhCrap {
         let displayName = Bundle.main.object(forInfoDictionaryKey: "CFBundleName") ?? ""
         let shortVersion = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") ?? ""
         let version = Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion") ?? ""
-        let deviceModel = UIDevice.current.model
-        let systemName = UIDevice.current.systemName
-        let systemVersion = UIDevice.current.systemVersion
-        return [
+        let info = [
             OhCrap.Keys.appNameKey: "\(displayName)",
             OhCrap.Keys.appVersionKey: "\(shortVersion)(\(version))",
-            OhCrap.Keys.deviceModelKey: deviceModel,
-            OhCrap.Keys.osNameKey: systemName,
-            OhCrap.Keys.osVersionKey: systemVersion,
-        ]
+            OhCrap.Keys.osVersionKey: ProcessInfo.processInfo.operatingSystemVersionString,
+            ]
+        return info
     }
     
     /*

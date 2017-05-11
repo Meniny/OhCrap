@@ -1,5 +1,5 @@
 framework module OhCrap {
-  umbrella header "OhCrap-umbrella.h"
+  umbrella header "OhCrap-iOS-umbrella.h"
 
   export *
   module * { export * }

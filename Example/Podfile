@@ -1,10 +1,30 @@
-# Uncomment the next line to define a global platform for your project
-platform :ios, '8.0'
+
+def common()
+  use_frameworks!
+  pod 'OhCrap', :path => '../'
+end
 
 target 'Example' do
-  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
-  use_frameworks!
+  platform :ios, '8.0'
+  common()
+end
 
-  # Pods for Example
-  pod 'OhCrap', :path => '../'
+target 'ExampleMacOS' do
+  platform :osx, '10.10'
+  common()
+end
+
+target 'ExampleTVOS' do
+    platform :tvos, '9.0'
+    common()
+end
+
+target 'ExampleWatchOS Extension' do
+    platform :watchos, '2.0'
+    common()
+end
+
+target 'ExampleWatchOS' do
+    platform :watchos, '2.0'
+    common()
 end

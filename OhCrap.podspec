@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "OhCrap"
   s.version          = "1.0.0"
-  s.summary          = "An iOS crash handler."
+  s.summary          = "An apple crash handler."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-                        OhCrap is an iOS crash handler.
+                        OhCrap is an apple crash handler.
                         DESC
 
   s.homepage         = "https://github.com/Meniny/OhCrap"
@@ -28,9 +28,12 @@ Pod::Spec.new do |s|
   s.social_media_url = 'http://meniny.cn/'
 
   s.ios.deployment_target = '8.0'
+  s.osx.deployment_target = '10.10'
+  s.watchos.deployment_target = '2.0'
+  s.tvos.deployment_target = '9.0'
 
-  s.ios.source_files = 'OhCrap/Source/**/*{.swift}','OhCrap/Source/**/*{.h}'
-  s.ios.public_header_files = 'OhCrap/Source/**/*{.h}'
+  s.source_files = 'OhCrap/Source/**/*{.swift}', 'OhCrap/Source/**/*{.h}'
+  s.public_header_files = 'OhCrap/Source/**/*{.h}'
   s.frameworks = 'Foundation'
   # s.dependency ""
 end

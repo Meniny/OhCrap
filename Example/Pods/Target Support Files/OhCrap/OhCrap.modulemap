@@ -1,0 +1,6 @@
+framework module OhCrap {
+  umbrella header "OhCrap-umbrella.h"
+
+  export *
+  module * { export * }
+}

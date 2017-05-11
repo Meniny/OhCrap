@@ -1,0 +1,16 @@
+PODS:
+  - OhCrap (1.0.0)
+
+DEPENDENCIES:
+  - OhCrap (from `../`)
+
+EXTERNAL SOURCES:
+  OhCrap:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OhCrap: 80043e3211191e90302efb72c807d81bdf208b40
+
+PODFILE CHECKSUM: 526e681515a5e56e243a258bffaad157c488a66d
+
+COCOAPODS: 1.2.1
